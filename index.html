@@ -1,5 +1,14 @@
 <body>
 
+<pre>
+	
+var script = document.createElement('script');
+script.src = 'script.' + (('fetch' in window) ? 'js' : 'fallback.js');
+document.body.appendChild(script);
+
+</pre>
+
+
 	<script> 
 		
 		var script = document.createElement('script');

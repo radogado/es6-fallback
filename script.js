@@ -1,1 +1,1 @@
-console.log('ES6 script');
+document.body.insertAdjacentHTML('beforeend', 'ES6 script active');

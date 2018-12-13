@@ -1,1 +1,1 @@
-console.log('Fallback script');
+document.body.insertAdjacentHTML('beforeend', 'Fallback script active');
